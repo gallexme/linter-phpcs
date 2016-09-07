@@ -104,7 +104,7 @@ module.exports =
             startPoint = [message.line - 1, message.column - 1]
             endPoint = [message.line - 1, message.column]
             msg = {
-              type: message.type
+              type: "WARNING",
               filePath,
               range: [startPoint, endPoint]
             }
